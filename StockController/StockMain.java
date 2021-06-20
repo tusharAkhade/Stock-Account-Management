@@ -34,15 +34,12 @@ public class StockMain {
                     stockServiceInterface.viewStock(StockList);
                     break;
                 case 3:
-                    System.out.println("EDIT");
                     stockServiceInterface.editStock(StockList);
                     break;
                 case 4:
-                    System.out.println("DELETE");
                     stockServiceInterface.deleteStock(StockList);
                     break;
                 default:
-                    System.out.println("EXIT");
                     flag = false;
             }
         }
